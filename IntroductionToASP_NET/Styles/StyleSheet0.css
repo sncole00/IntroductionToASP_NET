@@ -1,0 +1,21 @@
+﻿body {
+    font-family:sans-serif;
+}
+
+body.home {
+    background-color: burlywood;
+}
+
+body.demo1 {
+    background-color:palegoldenrod;
+}
+
+#ReferenceName {
+    margin-left: 20px;
+    text-align: center;
+}
+
+#OutputLabel {
+    padding-left:5px;
+    padding-right:5px;
+}
