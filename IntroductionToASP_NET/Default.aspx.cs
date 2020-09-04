@@ -12,7 +12,8 @@ namespace IntroductionToASP_NET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ReferenceName.Text = Class1.TimeNowIs();
+            Class1 class1 = new Class1();
+            ReferenceName.Text = class1.TimeNowIs;
         }
     }
 }
